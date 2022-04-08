@@ -1,7 +1,7 @@
 # **Language Suggester**
 
 #### By Timothy Ryan Gibson
-#### _A simple web application to get to match a person with a programming language._
+#### _A simple web application to match a person with a programming language._
 
 _Link to [language-suggester](https://diamondsandrust206.github.io/language-suggester/)_
 
@@ -22,7 +22,7 @@ _This web application asks  five questions about your personality to match you w
 
 * At https://github.com/DiamondsAndRust206/language-suggester copy the repository URL named "about-me". You can do this by clicking the green Code button and copy the URL from there.
 * In a shell program, clone the copied repository to your desktop (git clone URL).
-* Open the newly cloned directory named "about-me".
+* Open the newly cloned directory named "language-suggester".
 * From this directory, open index.html
 
 ## Know Bugs

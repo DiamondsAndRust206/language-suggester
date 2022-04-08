@@ -2,17 +2,25 @@ $(document).ready(function() {
   $("#questionform").submit(function(event) {
     event.preventDefault();
 
-    const fightInput = $("#fight").val();
-    const movieInput = $("#movie").val();
-    const foodInput = $("#food").val();
-    const weaponInput = $("#weapon").val();
-    const wtrInput = $("#wtr").val();
+    const fightInput = parseInt($("#fight").val());
+    const movieInput = parseInt($("#movie").val());
+    const foodInput = parseInt($("#food").val());
+    const weaponInput = parseInt($("#weapon").val());
+    const wtrInput = parseInt($("#wtr").val());
 
-    const result=()
-    $("#output").text(result);
-
-
-  $("#").show();
+    if (fightInput + movieInput + foodInput + weaponInput + wtrInput < 6 ) {
+      $("#ruby").show();
+      $("#javascript").hide();
+      $("#python").hide();
+    } else if (fightInput + movieInput + foodInput + weaponInput + wtrInput > 10 ) {
+      $("#javascript").show();
+      $("#ruby").hide();
+      $("#python").hide();
+    } else {
+      $("#python").show();
+      $("#ruby").hide();
+      $("#javascript").hide();
+    }
 
   });
 })
